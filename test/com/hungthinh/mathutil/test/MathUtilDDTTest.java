@@ -51,9 +51,7 @@ public class MathUtilDDTTest {
             return new Integer[][]{
                 {0,1},
                 {1,1},
-                {2,2},
-                {3,6},
-                {6,72}
+
             };
         }
         // có bộ data rồi, ta trích từng cặp ra và test xanh đỏ như cũ
