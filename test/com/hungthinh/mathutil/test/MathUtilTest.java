@@ -60,8 +60,8 @@ public class MathUtilTest {
     
     @Test
     public void testFactorialGivenValidArgrumentN6ReturnsWell() {
-        long expected = 720; // hy vong 0! =1
-        long actual = MathUtil.getFactorial(6);
+        long expected = 1; // hy vong 0! =1
+        long actual = MathUtil.getFactorial(1);
         
         assertEquals(expected, actual);
     }
